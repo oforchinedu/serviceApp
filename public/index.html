@@ -2,7 +2,7 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>A Pen by  Ofor Chinedu</title>
+  <title>Welcome to E-Service</title>
   
   
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
@@ -13,11 +13,132 @@
 </head>
 
 <body>
-  jhhfchch
+	<div class="container-fluid">
+		<!-- Heading -->
+		<div class="row">
+			<div class="col-md-4">
+			
+			</div>
+
+			<div class="main-div col-md-4">
+				<h1 class="text-primary">Welcome to E-Serve</h1>
+				<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Client Login</button>
+				<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Register Service</button>
+
+				<button onclick="document.getElementById('id03').style.display='block'" style="width:auto;">Service Login</button>
+			</div>
+
+			<div class="col-md-4">
+				
+			</div> 	
+		</div>
+		<!-- end of Heading -->
+
+		<!-- Login -->
+		<div class="row">
+			<div class="col-md-4">
+			
+			</div>
+
+			<div class=" col-md-4">
+				<div id="id01" class="modal">
+				<form class="modal-content animate" action="action_page.php">
+				    <div class="imgcontainer">
+				      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+				      <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQhH1DGtFmuPZgwL8aHgsT-3tVEDMgExDeyIvwCHnp3yYu_V08a2HKxzg" alt="Avatar" class="avatar">
+				    </div>
+
+				    <div class="container">
+				    <div class="row">
+				    	<div class="col-md-4">
+				    		<label><b>FirstName</b></label>
+				    		<input type="text" placeholder="Enter Username" name="uname" required>
+				    	</div>
+				    	<div class="col-md-4">
+				    		<label><b>LastName</b></label>
+				      		<input type="text" placeholder="Enter Username" name="uname" required>
+				    	</div>
+				    	<div class="col-md-4">
+				    		<label><b>MiddleName</b></label>
+				      		<input type="text" placeholder="Enter Username" name="uname" required>
+				    	</div>
+				    	
+				    </div>
+				    <div class="row">
+				    	<div class="col-md-4">
+				    		<label><b>Username</b></label>
+				      		<input type="text" placeholder="Enter Username" name="uname" required>
+				    	</div>
+				    	<div class="col-md-4">
+				    		<label><b>Password</b></label>
+				    		<input type="password" placeholder="Enter Password" name="psw" required>
+				    	</div>
+				    	<div class="col-md-4">
+				    		<label><b>Confirm Password</b></label>
+				    		<input type="password" placeholder="Enter Password" name="psw" required>
+				    	</div>
+				    	
+				    </div>
+				    <div class="row">
+				    	<div class="col-md-4">
+
+				    	</div>
+				    	<div class="col-md-4">
+
+				    	</div>
+				    	<div class="col-md-4">
+
+				    	</div>
+				    	
+				    </div>
+
+
+				      
+
+				    
+				    
+				    <label>Select Servie</label>
+				            <select id = "myList">
+				               <option value = "cleaner">Cleaner</option>
+				               <option value = "painter">Painter</option>
+				               <option value = "driver">three</option>
+				               <option value = "">four</option>
+				            </select>
+				        
+				    <button type="submit">Register</button>
+				    <input type="checkbox" checked="checked"> Remember me
+				    </div>
+
+				    <div class="container" style="background-color:#f1f1f1">
+				      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+				      <span class="psw">Forgot <a href="#">password?</a></span>
+				    </div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				
+			</div> 	
+		</div>
+		<!-- end of login -->
+
+
+
+	</div>  
+
+
+
+
+
+
+
+
+
+
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script>
 
-    <script src="js/index.js"></script>
+    <script src="/js/index.js"></script>
 
 </body>
 </html>
